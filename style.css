@@ -47,20 +47,13 @@
         }
 
         main .head {
-            
-        }
-
-        main .head {
             width: 100%;
+            height: 40px;
             display: flex;
             font-weight: bolder;
             text-transform: uppercase;
             text-align: center;
             justify-content: center;
-        }
-
-        main .head div {
-            height: 40px;
         }
 
         main .row {
@@ -85,8 +78,6 @@
         }
 
         
-
-
     /* main */
 
 /*classe main */
