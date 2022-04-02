@@ -36,7 +36,12 @@
 
     /* section */
         .main section.vertical-border {
-            width: 10px;
+            width: 20px;
+            background-color: #cf7d9f;
+        }
+
+        main section.horizontal-border {
+            height: 20px;
             background-color: #cf7d9f;
         }
     /* section */
