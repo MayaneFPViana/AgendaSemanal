@@ -17,7 +17,7 @@
 
     header span.title {
         width: 100%;
-        color: beige;
+        color: #f5f5dc;
         font-size: 40px;
         text-transform: uppercase;
         text-align: center;
@@ -36,7 +36,7 @@
 
     /* section */
         .main section.vertical-border {
-            width: 5px;
+            width: 10px;
             background-color: #cf7d9f;
         }
     /* section */
@@ -46,19 +46,39 @@
             width: 100%;
         }
 
-        main /*.row*/.head {
+        main .head {
+            
+        }
+
+        main .head {
             width: 100%;
             display: flex;
             font-weight: bolder;
             text-transform: uppercase;
+            text-align: center;
+            justify-content: center;
         }
 
-        main .row div {
+        main .head div {
+            height: 40px;
+        }
+
+        main .row {
+            display: flex;
+            height: 90px;
+        }
+
+        main .row div,
+        main .head div {
+            display: flex;
             border: 1px solid #cf7d9f;
             width: 100%;
+            align-items: center;
+            justify-content: center;
         }
 
-        main .row .time {
+        main .row .time,
+        main .head .time {
            display: flex;
            flex-direction: column;
            text-align: center;
